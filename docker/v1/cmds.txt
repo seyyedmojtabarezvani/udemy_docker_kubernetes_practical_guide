@@ -1,0 +1,8 @@
+To build the docker
+$ docker build .
+
+To run the image
+$ docker run -p 3000:3000 $IMAGE_ID/$IMAGE_TAG
+
+To stop the docker container 
+$ docker stop $CONTAINER_ID/$CONTAINER_TAG
